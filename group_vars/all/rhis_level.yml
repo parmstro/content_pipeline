@@ -1,0 +1,9 @@
+---
+target_domain: "example.ca"
+target_organization: "example"
+target_location: "lab"
+
+sat_short_name: "sat"
+idm_short_name: "idm"
+satellite_fqdn: "{{ sat_short_name }}.{{ target_domain }}"
+idm_fqdn:  "{{ idm_short_name }}.{{ target_domain }}"

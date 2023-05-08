@@ -1,0 +1,6 @@
+# The required content views are defined in the satellite vars file
+# in the rhis_builder project
+# if you need to create content views please use that code 
+# or the extract - creating content views
+# https://github.com/parmstro/labbuilder2
+

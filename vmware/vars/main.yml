@@ -1,0 +1,18 @@
+vcenter_hostname: "vcenter.parmstrong.ca"
+datacenter_name: "parmstrong.ca"
+datacenter_folder: "/parmstrong.ca/vm"
+vcenter_username: "{{ vcenter_username_vault }}"
+vcenter_password: "{{ vcenter_password_vault }}"
+host_list:
+- name: "testjboss2.{{ target_domain }}"
+  snap_name: "testjboss2.original"
+  snap_description: "test base jboss build - delete me"
+  quiesce: true
+- name: "testlamp2.{{ target_domain }}"
+  snap_name: "testlamp2.original"
+  snap_description: "test base LAMP build - delete me"
+  quiesce: true
+- name: "testwordpress2.{{ target_domain }}"
+  snap_name: "testwordpress.original"
+  snap_description: "test base WordPress build - delete me"
+  quiesce: true

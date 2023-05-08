@@ -1,0 +1,5 @@
+# for our sample application, the user below needs the permissions to 
+# manage snapshots (create, delete, revert, remove all)
+# and manage virtual machines (power on/off, reboot, start, stop, shutdown guest)
+vcenter_username_vault: "administrator@vsphere.local"
+vcenter_password_vault: "#Legend2013"

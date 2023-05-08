@@ -1,0 +1,7 @@
+---
+sat_server_url: "https://{{ satellite_fqdn }}/"
+sat_organization: "{{ target_organization }}"
+sat_location: "{{target_location }}"
+sat_publisher_username: "{{ sat_publisher_username_vault }}"
+sat_publisher_password: "{{ sat_publisher_password_vault }}"
+sat_validate_certs: true

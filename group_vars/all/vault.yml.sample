@@ -1,0 +1,3 @@
+sat_publisher_username_vault: your_satellite_login_here
+sat_publisher_password_vault: your_satellite_password_here
+# then encrypt the file with ansible-vault
